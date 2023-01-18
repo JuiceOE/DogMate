@@ -1,0 +1,272 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3,h4, h5{
+  font-family: "Montserrat-bold";
+
+}
+/* heading */
+
+h1.big-heading{
+  text-align: left;
+}
+.big-heading{
+  font-family: "Montserrat-black";
+  font-size: 5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* container */
+ .container-fluid{
+   padding: 3% 15% 7% ;
+}
+ #footer .container-fluid{
+  padding: 0 5% ;
+ }
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+.description{
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size:1.2rem ;
+  font-family: Montserrat-light;
+}
+/* Download-button */
+.Download-button{
+  margin:5% 3% 5% 0;
+}
+/* Title-Image */
+.rotate {
+  transform:rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+
+  }
+
+
+/* Feature Section */
+#features{
+    padding: 1% 20%;
+    position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+/* font awesome */
+.awesome{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+.awesome:hover{
+color:#ff4c68;
+}
+.feature-box{
+padding:5%;
+}
+  /* Testimonial Section */
+  #testimonials{
+    background-color: #ef8172;
+  }
+.textimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius:100%;
+  margin:10px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Card SELECTOR */
+#pricing{
+  background-color: #fff;
+}
+.price-sec-wrap {
+			width: 100%;
+			padding: 60px 0;
+			font-family: 'Lato', sans-serif;
+
+		}
+		.main-heading {
+		    font-weight: 600;
+		    padding-bottom: 15px;
+		    position: relative;
+		    text-transform: capitalize;
+		    font-size: 24px;
+		    margin-bottom: 25px;
+		}
+		.price-box {
+			box-shadow: 0 0 35px rgba(0, 0, 0, 0.10);
+			padding: 20px;
+			background: #fff;
+    		border-radius: 4px;
+		}
+		.price-box p{
+    		padding: 10px 0px 30px;
+		    margin: 17px 0 0 0;
+		    list-style: none;
+		    border-top: solid 1px #e9e9e9;
+		}
+		.price-box p {
+			padding: 7px 0;
+		    font-size: 14px;
+		    color: #808080;
+		}
+		.price-box p .fas {
+			color: #68AE4A;
+			margin-right: 7px;
+			font-size: 12px;
+		}
+		.price-label {
+			font-size: 16px;
+		    font-weight: 600;
+		    line-height: 1.34;
+		    margin-bottom: 0;
+		    padding: 6px 15px;
+		    display: inline-block;
+		    border-radius: 3px;
+		}
+		.price-label.basic {
+		    background: #E8EAF6;
+		    color: #3F51B5;
+		}
+		.price-label.value {
+		    background: #E8F5E9;
+		    color: #4CAF50;
+		}
+		.price-label.premium {
+		    background: #FBE9E7;
+		    color: #FF5722;
+		}
+		.price {
+			font-size: 44px;
+		    line-height: 44px;
+		    margin: 15px 0 6px;
+		    font-weight: 900;
+		}
+		.price-info {
+			font-size: 14px;
+		    font-weight: 400;
+		    line-height: 1.67;
+		    color: inherit;
+		    width: 100%;
+		    margin: 0;
+		    color: #989898;
+		}
+		.plan-btn {
+		  text-transform: uppercase;
+		  font-weight: 600;
+		  display: block;
+		  padding: 11px 30px;
+		  border: 2px solid #b3b3b3;
+		  color: #000;
+		  margin-top: 5px;
+		  overflow:hidden;
+		  position: relative;
+		  z-index: 1;
+		  margin: 0;
+		  border-radius: 5px;
+		  text-decoration: none;
+		  width: 100%;
+		  font-size: 14px;
+		}
+		.plan-btn::after {
+		  position: absolute;
+		  left: -100%;
+		  top: 0;
+		  content: "";
+		  height: 100%;
+		  width: 100%;
+		  background: #FF5722;
+		  z-index: -1;
+		  transition: all 0.35s ease-in-out;
+		}
+    .btn1::after{
+      background: #3F51B5;;
+    }
+    .btn2::after{
+      background: #4CAF50;
+    }
+    .btn3::after{
+      background: #FF5722;
+    }
+		.plan-btn:hover::after {
+		  left: 0;
+		}
+		.plan-btn:hover,
+		.plan-btn:focus {
+			text-decoration: none;
+			color: #fff;
+		  border: 2px solid #000;
+		}
+
+		@media (max-width: 1291px) {
+      #title{
+        text-align: center;
+      }
+      .rotate {
+        transform:rotate(0);
+        position: static;
+      }
+			.price-box {
+				margin-bottom: 20px;
+			}
+		}
+		@media (max-width: 575px) {
+			.main-heading {
+				font-size: 21px;
+			}
+			.price-box {
+				margin-bottom: 20px;
+			}
+		}
+
+.footer-link{
+  text-decoration: none;
+  margin: 20px 10px;
+}
+.trade-mark{
+  color:#808080;
+}
