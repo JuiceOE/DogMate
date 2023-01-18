@@ -1,1 +1,1 @@
-TinDog Starting Files
+DogMate Starting Files
