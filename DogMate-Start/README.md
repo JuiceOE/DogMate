@@ -1,1 +1,0 @@
-DogMate Starting Files
